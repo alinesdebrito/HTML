@@ -34,19 +34,21 @@ p {
 .frist-presentation {
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 5%;
 
 }
 
 .frist-presentation-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.frist-line {
     width: 472px;
-    height: 48px;
-    top: 269px;
-    left: 164px;
     color: #000;
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -55,21 +57,19 @@ p {
     font-weight: 600;
     line-height: normal;
     letter-spacing: 2px;
-    
 }
 
-.frist-presentation-left-botton {
+.presentation-description {
     width: 370px;
     height: 183px;
-    top: 413px;
-    left: 208px;
     color: #000;
     text-align: justify;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
-    line-height: 40px; /* 200% */
+    line-height: 40px;
+    align-self: center;
 }
 
 .featured-paragraph {
@@ -78,4 +78,53 @@ p {
     font-family: Inter;
     font-weight: 700;
     line-height: 40px;
+}
+
+.buttons-download {
+    display: flex;
+    flex-direction: row; 
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.button-ios {
+    text-align: center;
+    width: 176px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #9EA1FB;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    
+}
+
+.button-android {
+    text-align: center;
+    width: 176px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #7DC1FF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.25px;
+
+}
+
+.owl-logo {
+    width: 278px;
+    height: 104.719px;
+    align-self: center;
 }
